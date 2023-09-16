@@ -49,7 +49,7 @@ public class DefaultConfig {
             }
         }
         if (withMy)
-            data.add(0, new MovieSort.SortData("my0", "主页"));
+            data.add(0, new MovieSort.SortData("my0", "📺"));
         Collections.sort(data);
         return data;
     }
